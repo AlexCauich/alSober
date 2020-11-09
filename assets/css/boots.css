@@ -26,6 +26,13 @@ nav .logo h1 {
     background-image: url(../images/back.jpg);
    }
 
+   .section-footer .links-page{
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+  }
+
     /*Cards*/
     .section-cards .card1 {
       margin-bottom: 20px;
@@ -67,6 +74,13 @@ nav .logo h1 {
   .header {
     background-image: url(../images/back.jpg);
    }
+
+  .section-footer .links-page{
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+  }
 
   /*Cards*/
   .section-cards .card1 {
@@ -115,7 +129,7 @@ nav .logo h1 {
     padding-top: 190px;
     font-size: 60px;
     color: #fff;
-    position: relative
+    position: relative;
   }
 
   .main .section-main {
@@ -297,7 +311,254 @@ nav .logo h1 {
 .gallery {
   margin-top: 30px;
 }
-/*End Gallery*/
+
+.gallery .title-gallery h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.gallery .gallery-body {
+  margin-bottom: 30px;
+}
+
+/*Gallery1*/
+
+.gallery .gallery-body .gallery1{
+  background-image: url(../images/cajon2.jpg);
+  text-align: center;
+  background-position: center center;
+  background-size: 120% 120%;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 370px;
+  margin-bottom: 20px;  
+  border-radius: 10px;
+}
+
+.gallery .gallery-body .gallery1::before{
+  content:'';
+  position: absolute;
+        top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.gallery .gallery-body .gallery1 .texts p {
+  text-align: center;
+  font-family: cursive;
+  font-weight: lighter;
+  padding-top: 150px;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+
+}
+
+.gallery .gallery-body .gallery1:hover,
+.gallery .gallery-body .gallery1 p:hover{
+  color: #0099ff;
+  transition: .1s;
+  margin: 5px;
+  text-decoration: none;
+}
+
+/*End gallery1*/
+
+/*Gallery2*/
+
+.gallery .gallery-body .gallery2{
+  background-image: url(../images/canceleria.jpg);
+  text-align: center;
+  background-position: center center;
+  background-size: 140% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 370px;
+  margin-bottom: 20px;  
+  border-radius: 10px;
+}
+
+.gallery .gallery-body .gallery2::before{
+  content:'';
+  position: absolute;
+        top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.gallery .gallery-body .gallery2 .texts p {
+  text-align: center;
+  font-family: cursive;
+  font-weight: lighter;
+  padding-top: 150px;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+
+}
+
+.gallery .gallery-body .gallery2:hover{
+  color: #0099ff;
+  transition: .1s;
+  margin: 5px;
+  text-decoration: none;
+
+}
+.gallery .gallery-body .gallery2 p:hover{
+  color: #0099ff;
+  transition: .1s;
+  margin: 5px;
+  text-decoration: none;
+}
+
+/*End gallery2*/
+
+/*Gallery3*/
+
+.gallery .gallery-body .gallery3{
+  background-image: url(../images/cuadricula2.jpg);
+  text-align: center;
+  background-position: center center;
+  background-size: 140% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 370px;
+  margin-bottom: 20px;  
+  border-radius: 10px;
+}
+
+.gallery .gallery-body .gallery3::before{
+  content:'';
+  position: absolute;
+        top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.gallery .gallery-body .gallery3 .texts p {
+  text-align: center;
+  font-family: cursive;
+  font-weight: lighter;
+  padding-top: 150px;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+
+}
+
+.gallery .gallery-body .gallery3:hover{
+  color: #0099ff;
+  transition: .1s;
+  margin: 5px;
+  text-decoration: none;
+
+}
+.gallery .gallery-body .gallery3 p:hover{
+  color: #0099ff;
+  transition: .1s;
+  margin: 5px;
+  text-decoration: none;
+}
+
+/*End gallery3*/
+
+/*Gallery4*/
+
+.gallery .gallery-body .gallery4{
+  background-image: url(../images/espejos.jpg);
+  text-align: center;
+  background-position: center center;
+  background-size: 160% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 370px;
+  margin-bottom: 20px;  
+  border-radius: 10px;
+}
+
+.gallery .gallery-body .gallery4::before{
+  content:'';
+  position: absolute;
+        top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.gallery .gallery-body .gallery4 .texts p {
+  text-align: center;
+  font-family: cursive;
+  font-weight: lighter;
+  padding-top: 150px;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+
+}
+
+.gallery .gallery-body .gallery4:hover{
+  color: #0099ff;
+  transition: .1s;
+  margin: 5px;
+  text-decoration: none;
+
+}
+.gallery .gallery-body .gallery4 p:hover{
+  color: #0099ff;
+  transition: .1s;
+  margin: 5px;
+  text-decoration: none;
+}
+
+/*End gallery4*/
+
+
+
+
+.footer {
+  height: auto;
+  background-color: rgb(97, 89, 89);
+  
+}
+
+.logo-footer {
+  text-align: center;
+}
+
+.logo-footer h1 {
+  padding-top: 20px;
+}
+.logo-footer p {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.links-page h4{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.links-page .form-links {
+  text-align: center;
+  color: #ffffff;
+}
+
+.links-page .form-emails {
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
 /**/
 /**/
 /**/
